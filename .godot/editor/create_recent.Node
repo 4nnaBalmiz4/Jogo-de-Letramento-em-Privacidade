@@ -1,12 +1,12 @@
-AudioStreamPlayer
+Label
 Button
+TextureRect
 Sprite2D
+AudioStreamPlayer
 TextureButton
 Node2D
 VideoStreamPlayer
 AnimatedSprite2D
 ColorRect
-TextureRect
-Label
 Node
 ShapeCast2D

@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://bksnogpc12kd7"]
+
+[ext_resource type="Script" uid="uid://c4lt7hcjt6xeh" path="res://f_4_cena_8.gd" id="1_g4mvy"]
+[ext_resource type="Texture2D" uid="uid://57qeg5jjtur0" path="res://framesJogo/monitor.png" id="2_jqesx"]
+
+[node name="f4_cena8" type="Node2D" unique_id=1829561148]
+script = ExtResource("1_g4mvy")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=386087069]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("2_jqesx")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="." unique_id=269947385]
+offset_left = 643.0
+offset_top = 372.0
+offset_right = 722.0
+offset_bottom = 413.0
+text = ">>"
+
+[node name="Label" type="Label" parent="." unique_id=1144220007]
+offset_left = 467.0
+offset_top = 268.0
+offset_right = 697.0
+offset_bottom = 310.0
+theme_override_colors/font_color = Color(0.0627451, 0.84705883, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "A escolha é sua!"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://b30lff3aa6taf"]
+
+[ext_resource type="Script" uid="uid://v22woeov8r22" path="res://f_4_cena_15.gd" id="1_5fyv8"]
+[ext_resource type="Texture2D" uid="uid://57qeg5jjtur0" path="res://framesJogo/monitor.png" id="2_06hxu"]
+
+[node name="f4_cena15" type="Node2D" unique_id=1256635882]
+script = ExtResource("1_5fyv8")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1530470246]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("2_06hxu")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="." unique_id=1217182389]
+offset_left = 678.0
+offset_top = 392.0
+offset_right = 733.0
+offset_bottom = 429.0
+text = ">>"
+
+[node name="Label" type="Label" parent="." unique_id=1742870954]
+offset_left = 402.0
+offset_top = 218.0
+offset_right = 763.0
+offset_bottom = 385.0
+theme_override_colors/font_color = Color(0.0627451, 0.84705883, 0, 1)
+theme_override_font_sizes/font_size = 22
+text = "A cidade continua funcionando. 
+Apps gratuitos, serviços 
+personalizados e dados vazando. 
+Você sabia, viu e não fez nada. 
+Às vezes, omissão é cumplicidade."
+horizontal_alignment = 1
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

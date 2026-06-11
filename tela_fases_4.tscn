@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://c18llfbvyrawy"]
+
+[ext_resource type="Script" uid="uid://no3ps503r4e6" path="res://tela_fases_4.gd" id="1_3gxxb"]
+[ext_resource type="Texture2D" uid="uid://w24y4w2mi4ag" path="res://framesJogo/mapaFases4.png" id="2_okmee"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n8exr"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_acvlb"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qblkl"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wkvr1"]
+
+[node name="telaFases4" type="Node2D" unique_id=1307694852]
+script = ExtResource("1_3gxxb")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1843122760]
+offset_right = 1152.0
+offset_bottom = 647.0
+texture = ExtResource("2_okmee")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="." unique_id=471344247]
+offset_left = 682.0
+offset_top = 482.0
+offset_right = 756.0
+offset_bottom = 535.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_n8exr")
+
+[node name="Button2" type="Button" parent="." unique_id=621493783]
+offset_left = 768.0
+offset_top = 352.0
+offset_right = 840.0
+offset_bottom = 395.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_acvlb")
+
+[node name="Button3" type="Button" parent="." unique_id=2051588222]
+offset_left = 671.0
+offset_top = 188.0
+offset_right = 737.0
+offset_bottom = 240.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_qblkl")
+
+[node name="Button4" type="Button" parent="." unique_id=1692187818]
+offset_left = 876.0
+offset_top = 76.0
+offset_right = 1107.0
+offset_bottom = 263.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_wkvr1")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]
+[connection signal="pressed" from="Button4" to="." method="_on_button_4_pressed"]

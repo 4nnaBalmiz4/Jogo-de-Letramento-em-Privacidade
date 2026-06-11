@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://f36y7wu4nx6x"]
+
+[ext_resource type="Script" uid="uid://8bsh0phk1d5x" path="res://f_4_cena_12.gd" id="1_vprs0"]
+[ext_resource type="Texture2D" uid="uid://c1ynagc3i0pdx" path="res://framesJogo/tela8_f4.png" id="2_ja4sh"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ck5o3"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[node name="f4_cena12" type="Node2D" unique_id=1661699116]
+script = ExtResource("1_vprs0")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=412721064]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("2_ja4sh")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="." unique_id=830327594]
+offset_left = 367.0
+offset_top = 526.0
+offset_right = 937.0
+offset_bottom = 588.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_ck5o3")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

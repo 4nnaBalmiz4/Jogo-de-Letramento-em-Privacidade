@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://dee45fj888oda"]
+
+[ext_resource type="Script" uid="uid://chfww3bp8fs5b" path="res://f_4_cena_7.gd" id="1_n5q4s"]
+[ext_resource type="Texture2D" uid="uid://57qeg5jjtur0" path="res://framesJogo/monitor.png" id="2_fnrk8"]
+
+[node name="f4_cena7" type="Node2D" unique_id=1097560932]
+script = ExtResource("1_n5q4s")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1034639227]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("2_fnrk8")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="." unique_id=1843957585]
+offset_left = 393.0
+offset_top = 192.0
+offset_right = 781.0
+offset_bottom = 427.0
+theme_override_colors/font_color = Color(0.0627451, 0.84705883, 0, 1)
+theme_override_font_sizes/font_size = 22
+text = "Desativar o Núcleo causaria 
+colapso econômico. Milhões 
+perderiam acesso a serviços 
+essenciais.
+Mas mantê-lo como está... bem, 
+você conhece as consequências.
+"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=2047975832]
+offset_left = 675.0
+offset_top = 400.0
+offset_right = 736.0
+offset_bottom = 434.0
+text = ">>"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://dd4m6ofswh1pk"]
+
+[ext_resource type="Texture2D" uid="uid://57qeg5jjtur0" path="res://framesJogo/monitor.png" id="1_cpsk0"]
+[ext_resource type="Script" uid="uid://df0u58r1c1tup" path="res://f_4_cena_13.gd" id="1_l1p1u"]
+
+[node name="f4_cena13" type="Node2D" unique_id=192172742]
+script = ExtResource("1_l1p1u")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=364245131]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_cpsk0")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="." unique_id=1108319220]
+offset_left = 402.0
+offset_top = 207.0
+offset_right = 764.0
+offset_bottom = 374.0
+theme_override_colors/font_color = Color(0.0627451, 0.84705883, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "Você escolheu princípios acima 
+de pragmatismo. A cidade terá
+que se reconstruir do zero. 
+Às vezes, a melhor resposta 
+não é a mais fácil de viver."
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=203852425]
+offset_left = 672.0
+offset_top = 394.0
+offset_right = 729.0
+offset_bottom = 428.0
+text = ">>"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

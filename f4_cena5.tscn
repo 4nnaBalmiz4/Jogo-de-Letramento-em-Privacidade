@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://b747tunst5tc2"]
+
+[ext_resource type="Script" uid="uid://cqw6ys6kjy3lv" path="res://f4_cena5.gd" id="1_38ifb"]
+[ext_resource type="Texture2D" uid="uid://57qeg5jjtur0" path="res://framesJogo/monitor.png" id="1_87uew"]
+
+[node name="f4_cena5" type="Node2D" unique_id=1514906079]
+script = ExtResource("1_38ifb")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=438554661]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_87uew")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="." unique_id=1070539789]
+offset_left = 642.0
+offset_top = 360.0
+offset_right = 731.0
+offset_bottom = 409.0
+text = ">>"
+
+[node name="Label" type="Label" parent="." unique_id=2011580593]
+offset_left = 402.0
+offset_top = 232.0
+offset_right = 777.0
+offset_bottom = 313.0
+theme_override_colors/font_color = Color(0.0627451, 0.84705883, 0, 1)
+theme_override_font_sizes/font_size = 28
+text = "Auditor(a), você finalmente
+vê o quadro completo."
+horizontal_alignment = 1
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

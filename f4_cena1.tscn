@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://cwp0lkfq0xm2y"]
+
+[ext_resource type="Texture2D" uid="uid://57qeg5jjtur0" path="res://framesJogo/monitor.png" id="1_151qt"]
+[ext_resource type="Script" uid="uid://bcix3jw2cnmpp" path="res://f4_cena1.gd" id="1_dy1o4"]
+
+[node name="f4_cena1" type="Node2D" unique_id=248551162]
+script = ExtResource("1_dy1o4")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=692976490]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_151qt")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="." unique_id=1163233260]
+offset_left = 320.0
+offset_top = 206.0
+offset_right = 864.0
+offset_bottom = 383.0
+theme_override_colors/font_color = Color(0.0627451, 0.84705883, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "AUDITOR(A)... 
+ISSO É MAIOR DO 
+QUE IMAGINÁVAMOS.
+MUITO MAIOR..."
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=1459972217]
+offset_left = 648.0
+offset_top = 395.0
+offset_right = 725.0
+offset_bottom = 432.0
+text = ">>"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
