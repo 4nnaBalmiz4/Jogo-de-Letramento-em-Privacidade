@@ -11,16 +11,16 @@ config_version=5
 [application]
 
 config/name="JogoProjeto2"
-run/main_scene="uid://cxtap6rb8avuw"
+run/main_scene="res://telaInicial.tscn"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://imagens/icon.svg"
 
 [autoload]
 
-Global="*uid://cxbcev35oo4bi"
-MusicaGlobal="*uid://s61420ablx7"
-SomErro="*uid://c6s2w83prvjfe"
-SomAcerto="*uid://c1oeit6dpnp04"
+Global="*res://Global.gd"
+MusicaGlobal="*res://musica_global.tscn"
+SomErro="*res://som_erro.tscn"
+SomAcerto="*res://som_acerto.tscn"
 
 [input]
 

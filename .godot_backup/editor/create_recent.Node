@@ -1,0 +1,12 @@
+Label
+Button
+TextureRect
+Sprite2D
+AudioStreamPlayer
+TextureButton
+Node2D
+VideoStreamPlayer
+AnimatedSprite2D
+ColorRect
+Node
+ShapeCast2D
