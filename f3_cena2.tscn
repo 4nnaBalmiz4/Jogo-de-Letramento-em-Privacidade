@@ -1,0 +1,75 @@
+[gd_scene load_steps=6 format=3 uid="uid://d0smurgeb88gh"]
+
+[ext_resource type="Script" path="res://f_3_cena_2.gd" id="1_kihpl"]
+[ext_resource type="Texture2D" uid="uid://d4lsc81nbarxd" path="res://frame5_3.png" id="1_yct0s"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_normal"]
+bg_color = Color(0.1, 0.45, 0.85, 0.95)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.3, 0.75, 1, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+shadow_color = Color(0, 0, 0, 0.4)
+shadow_size = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hover"]
+bg_color = Color(0.15, 0.55, 0.95, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.5, 0.85, 1, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+shadow_color = Color(0, 0, 0, 0.5)
+shadow_size = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pressed"]
+bg_color = Color(0.08, 0.35, 0.7, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.2, 0.6, 0.9, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[node name="Info_screen" type="Node2D" unique_id=430523744]
+script = ExtResource("1_kihpl")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=518375338]
+position = Vector2(590.1507, 323.5)
+scale = Vector2(1.6629401, 1.6244018)
+texture = ExtResource("1_yct0s")
+
+[node name="Button" type="Button" parent="." unique_id=66915958]
+offset_left = 920.0
+offset_top = 550.0
+offset_right = 1100.0
+offset_bottom = 610.0
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_normal")
+theme_override_styles/hover = SubResource("StyleBoxFlat_hover")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_pressed")
+text = "Continuar >>"
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=302918475]
+offset_left = -20.0
+offset_top = -29.0
+offset_right = 1180.0
+offset_bottom = 671.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

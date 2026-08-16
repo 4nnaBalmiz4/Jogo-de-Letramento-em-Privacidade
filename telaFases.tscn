@@ -22,13 +22,19 @@ scale = Vector2(1.1386718, 1.153846)
 texture = ExtResource("3_mapa")
 
 [node name="BotaoFase2" type="Button" parent="MapaFases" unique_id=617112282]
-offset_left = 173.88684
-offset_top = 23.40001
-offset_right = 233.60559
-offset_bottom = 67.60002
+offset_left = 181.79083
+offset_top = 20.800009
+offset_right = 212.52838
+offset_bottom = 52.000023
+
+[node name="BotaoFase3" type="Button" parent="MapaFases" unique_id=750234981]
+offset_left = 86.94348
+offset_top = -124.80002
+offset_right = 120.315674
+offset_bottom = -89.26668
 
 [node name="BotaoFase1" type="Button" parent="MapaFases" unique_id=2029813565]
-offset_left = 99.0
-offset_top = 145.0
-offset_right = 156.0
-offset_bottom = 186.0
+offset_left = 108.02064
+offset_top = 143.86668
+offset_right = 142.27106
+offset_bottom = 172.46669

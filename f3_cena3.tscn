@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dggqj51siscis"]
+
+[ext_resource type="Script" uid="uid://dsk36fom4yfbr" path="res://f_3_cena_3.gd" id="1_script"]
+[ext_resource type="Texture2D" uid="uid://dc8j2k4gwcfs4" path="res://frame6_3.jpeg" id="1_ufu2s"]
+
+[node name="Corporate_office" type="Node2D" unique_id=654549524]
+script = ExtResource("1_script")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1979750556]
+position = Vector2(578.49994, 328)
+scale = Vector2(0.92734367, 0.7920094)
+texture = ExtResource("1_ufu2s")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1982736451]
+offset_right = 1200.0
+offset_bottom = 700.0
+color = Color(0, 0, 0, 1)

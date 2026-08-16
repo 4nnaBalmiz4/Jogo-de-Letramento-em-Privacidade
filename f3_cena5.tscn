@@ -1,0 +1,175 @@
+[gd_scene format=3 uid="uid://cddjwilu58dsm"]
+
+[ext_resource type="Script" uid="uid://7mlbtugl7rvo" path="res://f_3_cena_5.gd" id="1_script"]
+[ext_resource type="Texture2D" uid="uid://cog18rs3p1jru" path="res://executivo.png" id="1_tt8jr"]
+[ext_resource type="Texture2D" uid="uid://dcru7jmhmupvf" path="res://cartaoDadosSolicitantes 2.png" id="3_qx6xv"]
+[ext_resource type="Texture2D" uid="uid://juchtltwnngt" path="res://maisdados.png" id="4_i4gkl"]
+[ext_resource type="Texture2D" uid="uid://cmijsr5wklke5" path="res://framesJogo/barraVidaCompleta 1.png" id="6_barravida"]
+[ext_resource type="Texture2D" uid="uid://mcinodhw32a7" path="res://executivoBravo.png" id="6_olabg"]
+[ext_resource type="Texture2D" uid="uid://es51myi66xya" path="res://audiorFalando.png" id="7_awj3h"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dialog"]
+bg_color = Color(0.08, 0.09, 0.14, 0.9)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.2, 0.6, 1, 0.8)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+shadow_color = Color(0, 0, 0, 0.5)
+shadow_size = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_btn_conforme"]
+bg_color = Color(0.12, 0.55, 0.25, 0.9)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.3, 0.9, 0.4, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+shadow_color = Color(0, 0, 0, 0.4)
+shadow_size = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_btn_nao_conforme"]
+bg_color = Color(0.65, 0.15, 0.15, 0.9)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(1, 0.4, 0.4, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+shadow_color = Color(0, 0, 0, 0.4)
+shadow_size = 6
+
+[node name="Node2D" type="Node2D" unique_id=2019112631]
+script = ExtResource("1_script")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1265721573]
+position = Vector2(572, 323.25)
+scale = Vector2(0.73251534, 0.7)
+texture = ExtResource("1_tt8jr")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1980445164]
+visible = false
+position = Vector2(582.75, 344)
+scale = Vector2(1.0675918, 1)
+texture = ExtResource("3_qx6xv")
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=1980445165]
+visible = false
+position = Vector2(569.875, 311)
+scale = Vector2(1.9606633, 1.4851694)
+texture = ExtResource("4_i4gkl")
+
+[node name="barraVida" type="Sprite2D" parent="." unique_id=1756370360]
+visible = false
+position = Vector2(1003, 77)
+texture = ExtResource("6_barravida")
+
+[node name="DialogPanel" type="Panel" parent="." unique_id=987654321]
+visible = false
+offset_left = 100.0
+offset_top = 460.0
+offset_right = 1052.0
+offset_bottom = 600.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_dialog")
+
+[node name="SpeakerLabel" type="Label" parent="DialogPanel" unique_id=987654322]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 12.0
+offset_right = 350.0
+offset_bottom = 38.0
+theme_override_colors/font_color = Color(0.2, 0.8, 1, 1)
+theme_override_font_sizes/font_size = 18
+text = "Auditor(a)"
+
+[node name="DialogueLabel" type="Label" parent="DialogPanel" unique_id=987654323]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 42.0
+offset_right = 925.0
+offset_bottom = 125.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 18
+text = "Mais dados?? Deixe eu analisar bem isso."
+autowrap_mode = 2
+visible_characters = 0
+visible_ratio = 0.0
+
+[node name="ContainerBotoes" type="Control" parent="." unique_id=554433221]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="BotaoConforme" type="Button" parent="ContainerBotoes" unique_id=554433222]
+layout_mode = 0
+offset_left = 340.0
+offset_top = 515.0
+offset_right = 540.0
+offset_bottom = 575.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_btn_conforme")
+text = "Conforme"
+
+[node name="BotaoNaoConforme" type="Button" parent="ContainerBotoes" unique_id=554433223]
+layout_mode = 0
+offset_left = 612.0
+offset_top = 515.0
+offset_right = 812.0
+offset_bottom = 575.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_btn_nao_conforme")
+text = "Não Conforme"
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=201928374]
+offset_left = 2.0
+offset_top = -21.0
+offset_right = 1202.0
+offset_bottom = 679.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Sprite2D4" type="Sprite2D" parent="." unique_id=421164866]
+visible = false
+position = Vector2(574.9481, 334.875)
+scale = Vector2(0.7361327, 0.7277202)
+texture = ExtResource("6_olabg")
+
+[node name="Sprite2D5" type="Sprite2D" parent="." unique_id=1468884763]
+visible = false
+position = Vector2(586.0302, 306.00003)
+scale = Vector2(1.7535772, 1.7065676)
+texture = ExtResource("7_awj3h")
+
+[node name="BotaoAvancar" type="Button" parent="." unique_id=1468884999]
+visible = false
+layout_mode = 0
+offset_left = 1050.0
+offset_top = 560.0
+offset_right = 1130.0
+offset_bottom = 610.0
+z_index = 15
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(1, 1, 1, 0.8)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 28
+flat = true
+text = ">>"
+
+[connection signal="pressed" from="ContainerBotoes/BotaoConforme" to="." method="_on_botao_conforme_pressed"]
+[connection signal="pressed" from="ContainerBotoes/BotaoNaoConforme" to="." method="_on_botao_nao_conforme_pressed"]
+[connection signal="pressed" from="BotaoAvancar" to="." method="_on_botao_avancar_pressed"]

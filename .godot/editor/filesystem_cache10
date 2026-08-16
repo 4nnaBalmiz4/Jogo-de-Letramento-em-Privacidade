@@ -1,8 +1,10 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1786472000
+::res://::1786908773
 animacaocena_7.gd::GDScript::-1::1786471889::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
+animacaoEntregaFicha1.png::CompressedTexture2D::4858233102952233846::1786901626::1786901627::1::::<><><>0<>0<>82a9d91f2b9c28a15f85d101333f0db2<>res://.godot/imported/animacaoEntregaFicha1.png-d2918248317cbd94f6379b24ec6b2bb4.ctex::
 animacao_final.gd::GDScript::-1::1786471889::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
 animated_sprite_2d.gd::GDScript::-1::1786471889::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
+audiorFalando.png::CompressedTexture2D::319782782311390068::1786908182::1786908183::1::::<><><>0<>0<>26c693316aacf667c4ec814fadbb4a47<>res://.godot/imported/audiorFalando.png-aab7b6fda815890db778389f8b6c068e.ctex::
 botao_comecar.gd::GDScript::-1::1786471889::0::1::::<>Button<><>0<>0<><>::
 botao_continuar.gd::GDScript::-1::1786471889::0::1::::<>Button<><>0<>0<><>::
 botao_entendi.gd::GDScript::-1::1786471889::0::1::::<>Button<><>0<>0<><>::
@@ -14,6 +16,8 @@ botao_ler_politica.gd::GDScript::-1::1786471889::0::1::::<>Button<><>0<>0<><>::
 botao_sinalizar_violocao.gd::GDScript::-1::1786471889::0::1::::<>Button<><>0<>0<><>::
 button.gd::GDScript::-1::1786471889::0::1::::<>Button<><>0<>0<><>::
 card_fase_2.gd::GDScript::-1::1786471889::0::1::::<>Sprite2D<><>0<>0<><>::
+cartaoDadosSolicitantes 2.png::CompressedTexture2D::7336006137017362507::1786905567::1786905568::1::::<><><>0<>0<>7cdc529c0ca5b4c6d161cb940aed9766<>res://.godot/imported/cartaoDadosSolicitantes 2.png-b011f080a3882b25a53e48ae7d63294c.ctex::
+cartaoDadosSolicitantes.png::CompressedTexture2D::3019283563940589521::1786901426::1786901427::1::::<><><>0<>0<>f9b6e66e9a180a8ce4f11a8e56b2593b<>res://.godot/imported/cartaoDadosSolicitantes.png-e09111e41060b10390dfa5fc533c9208.ctex::
 cena1.tscn::PackedScene::5448316877639934650::1786471894::0::1::::<><><>0<>0<><>::uid://bjku33431haac::::res://framesJogo/Frame1.png<>uid://ccu58klrwfyr3::::res://framesJogo/Frame2.png<>uid://bboxw2008pkel::::res://framesJogo/Frame3.png<>uid://dte2vjhweg8km::::res://animated_sprite_2d.gd
 cena1_2.tscn::PackedScene::6854725923729830191::1786471894::0::1::::<><><>0<>0<><>::uid://cwd6vus5xwtsj::::res://cena_1_2.gd<>uid://57qeg5jjtur0::::res://framesJogo/monitor.png<>uid://dvbyqqjpddsfe::::res://label.gd
 cena1_3.tscn::PackedScene::3331424298454508476::1786471894::0::1::::<><><>0<>0<><>::uid://bqlymc145pgn6::::res://cena_1_3.gd<>uid://57qeg5jjtur0::::res://framesJogo/monitor.png<>uid://dvbyqqjpddsfe::::res://label.gd
@@ -41,6 +45,8 @@ cena_5.gd::GDScript::-1::1786471889::0::1::::<>Node2D<><>0<>0<><>::
 cena_7.gd::GDScript::-1::1786471889::0::1::::<>Node2D<><>0<>0<><>::
 cena_8.gd::GDScript::-1::1786471889::0::1::::<>Node<><>0<>0<><>::
 exclamação.png::CompressedTexture2D::4173395983985239097::1786471889::1786471896::1::::<><><>0<>0<>51596a591d4a16d959e724bcd28c7125<>res://.godot/imported/exclamação.png-090cdc1b6b6a1f325a7a4fbd9a21ecfb.ctex::
+executivo.png::CompressedTexture2D::5769509939850505530::1786899829::1786899829::1::::<><><>0<>0<>f4ae106ec9ffd9c906eb7ba337e92795<>res://.godot/imported/executivo.png-54c5bf0e2e11559ff6aa84a617ab92b8.ctex::
+executivoBravo.png::CompressedTexture2D::846904570737297900::1786907289::1786907290::1::::<><><>0<>0<>8eb97fb134b9a08976bcb9569b74da23<>res://.godot/imported/executivoBravo.png-cd2ff47a08677a2c655e8f058c2c2d97.ctex::
 f2_cena1.tscn::PackedScene::8668305182501757738::1786471894::0::1::::<><><>0<>0<><>::uid://dqwhimt7pr2b3::::res://f_2_cena_1.gd<>uid://57qeg5jjtur0::::res://framesJogo/monitor.png
 f2_cena2.tscn::PackedScene::2848026078614742710::1786471894::0::1::::<><><>0<>0<><>::uid://da1xknyghv8qy::::res://f_2_cena_2.gd<>uid://cpu25pquvkdn8::::res://framesJogo/frame14.png<>uid://cmijsr5wklke5::::res://framesJogo/barraVidaCompleta 1.png<>uid://dpneli36ifvx7::::res://iconeDiario.png<>uid://b2m8xuylqya3r::::res://notificaçãoDiario.png<>uid://b0pvhs1a41hs0::::res://exclamação.png<>uid://bx0btiivn57hr::::res://framesJogo/diarioFase2.png
 f2_cena3.tscn::PackedScene::4388873302841076606::1786471894::0::1::::<><><>0<>0<><>::uid://bfxfot3l6csog::::res://f_2_cena_3.gd<>uid://4hxiq74ltquv::::res://framesJogo/Frame2Fase2.png
@@ -49,6 +55,10 @@ f2_cena5.tscn::PackedScene::8160899807076494034::1786471894::0::1::::<><><>0<>0<
 f2_cena6.tscn::PackedScene::935026695849697508::1786471894::0::1::::<><><>0<>0<><>::uid://fkmi0j2lcrgy::::res://f_2_cena_6.gd<>uid://gtm2yoiqj62t::::res://framesJogo/Frame4Fase2.png<>uid://b1avjk4mem02e::::res://framesJogo/comemoração.mp3
 f2_cena7.tscn::PackedScene::5864848444858301101::1786471894::0::1::::<><><>0<>0<><>::uid://ctquv6e7nhbtn::::res://f_2_cena_7.gd<>uid://qbu4bsin8apl::::res://framesJogo/frame20.png
 f2_cena8.tscn::PackedScene::636276317772747069::1786471894::0::1::::<><><>0<>0<><>::uid://d27s1bfh2waeb::::res://framesJogo/fundoCard.png<>uid://dytkb3ve2d1e7::::res://f_2_cena_8.gd<>uid://fixnh1k1k6wm::::res://framesJogo/cardFase2.png<>uid://br2jcjvfsxmqf::::res://card_fase_2.gd<>uid://bop2hv232fiet::::res://framesJogo/botaoContinuar.png<>uid://6ryrrfubvx4v::::res://framesJogo/descoberta.mp3
+f3_cena1.tscn::PackedScene::5258604463627079546::1786898289::0::1::::<><><>0<>0<><>::uid://bgui341kns8ml::::res://frame1_3.png<>uid://c7d460760c1l4::::res://frame2_3.png<>uid://p8571j7jmehc::::res://frame4_3.png<>uid://b5u75d5rvpj4o::::res://frame3_3.png<>uid://cdf24e3vlpnna::::res://sound_punch.mp3
+f3_cena2.tscn::PackedScene::8951907163744676591::1786903569::0::1::::<><><>0<>0<><>::uid://b2v3mhctjyra1::::res://f_3_cena_2.gd<>uid://d4lsc81nbarxd::::res://frame5_3.png
+f3_cena3.tscn::PackedScene::7593770540155921146::1786903578::0::1::::<><><>0<>0<><>::uid://dsk36fom4yfbr::::res://f_3_cena_3.gd<>uid://dc8j2k4gwcfs4::::res://frame6_3.jpeg
+f3_cena4.tscn::PackedScene::2094974497404841728::1786905837::0::1::::<><><>0<>0<><>::uid://5qg8pneiev5f::::res://frame7_3.jpeg<>uid://bt088gw482cg1::::res://f_3_cena_4.gd<>uid://cog18rs3p1jru::::res://executivo.png<>uid://bjatfoahvcpvl::::res://cartaoDadosSolicitantes.png<>uid://cbhmnifld0nfa::::res://animacaoEntregaFicha1.png<>uid://53f3txyi6lj1::::res://framesJogo/AnimacaoFicha2.png<>uid://hb82qft7bamd::::res://framesJogo/seraQueEsTAcERTO.png<>uid://dsnv6t0cku8ly::::res://framesJogo/estaTudoCertoVamosContinuar.png<>uid://cmijsr5wklke5::::res://framesJogo/barraVidaCompleta 1.png
 f4_cena1.gd::GDScript::-1::1786471889::0::1::::<>Node2D<><>0<>0<><>::
 f4_cena1.tscn::PackedScene::6349499696004744166::1786471894::0::1::::<><><>0<>0<><>::uid://57qeg5jjtur0::::res://framesJogo/monitor.png<>uid://bcix3jw2cnmpp::::res://f4_cena1.gd
 f4_cena2.tscn::PackedScene::2596817324818144247::1786471894::0::1::::<><><>0<>0<><>::uid://cnq8u660g22bs::::res://f_4_cena_2.gd<>uid://bk1a80gpmyix8::::res://framesJogo/tela1_f4.png
@@ -67,6 +77,13 @@ f4_cena13.tscn::PackedScene::7430480244283849992::1786471894::0::1::::<><><>0<>0
 f4_cena14.tscn::PackedScene::204526329294240342::1786471894::0::1::::<><><>0<>0<><>::uid://dricbwuexm73w::::res://f_4_cena_14.gd<>uid://ocgg24qkdqm5::::res://framesJogo/tela9_f4.png
 f4_cena15.tscn::PackedScene::4403994871171972553::1786471894::0::1::::<><><>0<>0<><>::uid://v22woeov8r22::::res://f_4_cena_15.gd<>uid://57qeg5jjtur0::::res://framesJogo/monitor.png
 f4_cena16.tscn::PackedScene::7574212614916573835::1786471894::0::1::::<><><>0<>0<><>::uid://d27s1bfh2waeb::::res://framesJogo/fundoCard.png<>uid://8tyqtbfgu7an::::res://f_4_cena_16.gd<>uid://b03jn7ttldfip::::res://framesJogo/telaConquista_f4.png<>uid://bli4r7ibmgsf3::::res://sprite_2d.gd
+frame1_3.png::CompressedTexture2D::2849378602588501319::1786897168::1786897057::1::::<><><>0<>0<>6c6028ed451d5920028fbd2263a24a8a<>res://.godot/imported/frame1_3.png-7770cf954a28b19bba3d591f4aedc5eb.ctex::
+frame2_3.png::CompressedTexture2D::7026895013426207483::1786897054::1786897055::1::::<><><>0<>0<>fb18c130b6ff8914903f33d0ec942399<>res://.godot/imported/frame2_3.png-b7d61c4a6a18fceb7d59cc404d50c15b.ctex::
+frame3_3.png::CompressedTexture2D::4535370270216190964::1786897051::1786897052::1::::<><><>0<>0<>834b005be96507f6b8ecd591df3a8cd0<>res://.godot/imported/frame3_3.png-e0169f06a120bd7f2f93559d4d743391.ctex::
+frame4_3.png::CompressedTexture2D::1122837156619189552::1786897049::1786897050::1::::<><><>0<>0<>504bc11251bcbd7b95fa653ed503992a<>res://.godot/imported/frame4_3.png-231de37801755745ca7a3dd685b21532.ctex::
+frame5_3.png::CompressedTexture2D::9218544923361992837::1786899528::1786899528::1::::<><><>0<>0<>fcc1e603bbeb22f66f8acbd879595845<>res://.godot/imported/frame5_3.png-a0b05eef07d4d10e21f1ffa6020c6671.ctex::
+frame6_3.jpeg::CompressedTexture2D::7368359443944597381::1786897040::1786897041::1::::<><><>0<>0<>854b063190223b2cac667298fdb0beac<>res://.godot/imported/frame6_3.jpeg-4087526eba8b98c6191da6892ac7aa04.ctex::
+frame7_3.jpeg::CompressedTexture2D::2139119394486712757::1786897037::1786897037::1::::<><><>0<>0<>904a49c455e27551e815cc7856d6739a<>res://.godot/imported/frame7_3.jpeg-e48dec31f4e28ad833c8753b6222762b.ctex::
 f_2_cena_1.gd::GDScript::-1::1786471889::0::1::::<>Node2D<><>0<>0<><>::
 f_2_cena_1.tscn.gd::GDScript::-1::1786471889::0::1::::<>Node2D<><>0<>0<><>::
 f_2_cena_2.gd::GDScript::-1::1786471889::0::1::::<>Node2D<><>0<>0<><>::
@@ -76,6 +93,10 @@ f_2_cena_5.gd::GDScript::-1::1786471889::0::1::::<>Node2D<><>0<>0<><>::
 f_2_cena_6.gd::GDScript::-1::1786471889::0::1::::<>Node2D<><>0<>0<><>::
 f_2_cena_7.gd::GDScript::-1::1786471889::0::1::::<>Node2D<><>0<>0<><>::
 f_2_cena_8.gd::GDScript::-1::1786471889::0::1::::<>Node<><>0<>0<><>::
+f_3_cena_1.gd::GDScript::662532348251137459::1786898390::0::1::::<>Node2D<><>0<>0<><>::
+f_3_cena_3.gd::GDScript::8445060734341937111::1786898393::0::1::::<>Node2D<><>0<>0<><>::
+f_3_cena_4.gd::GDScript::3773681099115953782::1786905282::0::1::::<>Node2D<><>0<>0<><>::
+f_3_cena_5.gd::GDScript::2271486231308421004::1786908426::0::1::::<>Node2D<><>0<>0<><>::
 f_4_cena_1.gd::GDScript::-1::1786471889::0::1::::<>Node2D<><>0<>0<><>::
 f_4_cena_2.gd::GDScript::-1::1786471889::0::1::::<>Node2D<><>0<>0<><>::
 f_4_cena_3.gd::GDScript::-1::1786471889::0::1::::<>Node2D<><>0<>0<><>::
@@ -99,14 +120,19 @@ Global.gd::GDScript::-1::1786471889::0::1::::<>Node<><>0<>0<><>::
 icon.svg::CompressedTexture2D::8425985322979466783::1786471889::1786471896::1::::<><><>0<>0<>083177a288274e7290b065db16f45640<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 iconeDiario.png::CompressedTexture2D::8239194593017320970::1786471889::1786471896::1::::<><><>0<>0<>f46eb8e3e42b4e7e5b63de7c665d4420<>res://.godot/imported/iconeDiario.png-dd76265165f7d4f863439b064fc591f8.ctex::
 label.gd::GDScript::-1::1786471889::0::1::::<>Label<><>0<>0<><>::
+maisdados.png::CompressedTexture2D::673122098196054139::1786905949::1786905950::1::::<><><>0<>0<>0151d0acce8197823e13ed20c0854978<>res://.godot/imported/maisdados.png-a4965791ff8f848d29efa32cd5ac9818.ctex::
 musica_global.gd::GDScript::-1::1786471889::0::1::::<>Node<><>0<>0<><>::
 musica_global.tscn::PackedScene::39089023013175490::1786471894::0::1::::<><><>0<>0<><>::uid://cc4g0fwym5ngy::::res://musica_global.gd<>uid://bmauv8o2s13ds::::res://framesJogo/TrilhaSonoraJogo.mp3
 node_2d.gd::GDScript::-1::1786471889::0::1::::<>Node2D<><>0<>0<><>::
 notificaçãoDiario.png::CompressedTexture2D::4308337817054222825::1786471889::1786471896::1::::<><><>0<>0<>d44442d43b856873850645e79d8d74f9<>res://.godot/imported/notificaçãoDiario.png-7122b20a0767684a69837be08afe0180.ctex::
 personagemDescobrindoViolacao.png::CompressedTexture2D::4159681151046479193::1786471889::1786471896::1::::<><><>0<>0<>1d65a3d304f06bc5143a4001edeebb04<>res://.godot/imported/personagemDescobrindoViolacao.png-79e7ec394d6c2f5b39763f36880d08d2.ctex::
+f_3_cena_2.gd::GDScript::4326593271708873358::1786903468::0::1::::<>Node2D<><>0<>0<><>::
+f3_cena5.tscn::PackedScene::4990187210093033892::1786908403::0::1::::<><><>0<>0<><>::uid://7mlbtugl7rvo::::res://f_3_cena_5.gd<>uid://cog18rs3p1jru::::res://executivo.png<>uid://dcru7jmhmupvf::::res://cartaoDadosSolicitantes 2.png<>uid://juchtltwnngt::::res://maisdados.png<>uid://cmijsr5wklke5::::res://framesJogo/barraVidaCompleta 1.png<>uid://mcinodhw32a7::::res://executivoBravo.png<>uid://es51myi66xya::::res://audiorFalando.png
+f3_cena6.tscn::PackedScene::278415894573520944::1786908772::0::1::::<><><>0<>0<><>::uid://d27s1bfh2waeb::::res://framesJogo/fundoCard.png
 som_acerto.gd::GDScript::-1::1786471889::0::1::::<>Node<><>0<>0<><>::
 som_acerto.tscn::PackedScene::6626910790843656099::1786471894::0::1::::<><><>0<>0<><>::uid://cfsb175h0pbps::::res://som_acerto.gd<>uid://dsj4agisldvpj::::res://framesJogo/somCorrreto.mp3
 som_erro.tscn::PackedScene::6987534743239047658::1786471894::0::1::::<><><>0<>0<><>::uid://hojgcdfpsjce::::res://framesJogo/barulhoErro.mp3
+sound_punch.mp3::AudioStreamMP3::4995421188215907510::1786897046::1786897046::1::::<><><>0<>0<>4d21ed5be80d2fc2b459f2f9666d19b1<>res://.godot/imported/sound_punch.mp3-bea54b8b29a32a9e1fcb6637d6eade3a.mp3str::
 sprite_2d.gd::GDScript::-1::1786471889::0::1::::<>Sprite2D<><>0<>0<><>::
 sprite_2d_2.gd::GDScript::-1::1786471889::0::1::::<>Sprite2D<><>0<>0<><>::
 telaFases.tscn::PackedScene::3999975079939992791::1786471894::0::1::::<><><>0<>0<><>::uid://j6s02hqchmqn::::res://framesJogo/videoTelaFases.ogv<>uid://b5kwk6j11hk7i::::res://tela_fases.gd<>uid://bjxfh8l3qye7::::res://framesJogo/mapaFases.png
@@ -116,7 +142,8 @@ tela_fases_4.gd::GDScript::-1::1786471889::0::1::::<>Node2D<><>0<>0<><>::
 tela_fases_4.tscn::PackedScene::6666563563660841708::1786471894::0::1::::<><><>0<>0<><>::uid://no3ps503r4e6::::res://tela_fases_4.gd<>uid://w24y4w2mi4ag::::res://framesJogo/mapaFases4.png
 tela_inicial.gd::GDScript::-1::1786471889::0::1::::<>Node2D<><>0<>0<><>::
 videoTelaFases.ogv::VideoStreamTheora::6663821991772660791::1780155902::0::1::::<><><>0<>0<><>::
-::res://framesJogo/::1786471896
+::res://framesJogo/::1786908823
+AnimacaoFicha2.png::CompressedTexture2D::2163822508024341296::1786901628::1786901629::1::::<><><>0<>0<>86183c95e077ded4ed4483374457c9f2<>res://.godot/imported/AnimacaoFicha2.png-e235d1cb1390ccabb58f6814ceac16a2.ctex::
 barraVida-1 1.png::CompressedTexture2D::3571612579421120166::1786471889::1786471896::1::::<><><>0<>0<>eb2d085db1f6ba8aab8d5c12c4fb1561<>res://.godot/imported/barraVida-1 1.png-870ba8b748e2114f7031a61fc536b68a.ctex::
 barraVida-2 1.png::CompressedTexture2D::8887419096391163562::1786471889::1786471896::1::::<><><>0<>0<>59b7b49445cc4c09f76bc4c2f45fee8e<>res://.godot/imported/barraVida-2 1.png-8d2c495d5533a907ff221eb6bd3d06ed.ctex::
 barraVida-3 1.png::CompressedTexture2D::2420616814856028749::1786471889::1786471896::1::::<><><>0<>0<>1cbbe400c0298a8e236d0f238ca50786<>res://.godot/imported/barraVida-3 1.png-97ffc3a575a941ca97fc3e4b99b4941c.ctex::
@@ -126,6 +153,7 @@ barulhoErro.mp3::AudioStreamMP3::520780471650444748::1776781481::1786471889::1::
 botaoContinuar.png::CompressedTexture2D::3401683166307030995::1786471889::1786471896::1::::<><><>0<>0<>b8d7492714887fa29320ac315801c0e9<>res://.godot/imported/botaoContinuar.png-bc46175063d02f8655f4f133b4ba8ec2.ctex::
 card1.png::CompressedTexture2D::6911212765820251343::1786471889::1786471896::1::::<><><>0<>0<>8b68849254c988ff48f32da537881044<>res://.godot/imported/card1.png-c3d77ee8033e628ad63cc9748e956aa5.ctex::
 cardFase2.png::CompressedTexture2D::368879354694926884::1786471889::1786471896::1::::<><><>0<>0<>e26e7528f0d4658a8838c2e632412663<>res://.godot/imported/cardFase2.png-f6f99d96a43c7dcdbb4d789d90dd44ad.ctex::
+cardFase3.png::CompressedTexture2D::5798575990821493063::1786908823::1786908823::1::::<><><>0<>0<>d321beb698d6c15abfe9c6ca2e22f7e5<>res://.godot/imported/cardFase3.png-63b648fe68ca27e69870993d155eb3af.ctex::
 carimbo.mp3::AudioStreamMP3::4848639794846759262::1776781481::1786471889::1::::<><><>0<>0<>c392a5eddc3c5efc2d24dbddf5e3e225<>res://.godot/imported/carimbo.mp3-fb1b757e1490bcf84bbe7cea9fedd9b2.mp3str::
 comemoração.mp3::AudioStreamMP3::4212622317859084254::1780166048::1786471889::1::::<><><>0<>0<>26893458cd32750aa97ebe33f1dfb852<>res://.godot/imported/comemoração.mp3-cd83b831b19376e8adf9b8fcf20f696d.mp3str::
 descoberta.mp3::AudioStreamMP3::2212437042452670787::1776781481::1786471889::1::::<><><>0<>0<>fb073e9544572eb7edae2a0a732237f3<>res://.godot/imported/descoberta.mp3-f39a4d42fd6ed4d43b590763e1e30d03.mp3str::
@@ -133,6 +161,7 @@ diarioFase1.png::CompressedTexture2D::6941017477461624852::1786471889::178647189
 diariofase1aberto.png::CompressedTexture2D::850541777767999569::1786471889::1786471896::1::::<><><>0<>0<>5721e6fcf7eaab61cbd4816b0f88daad<>res://.godot/imported/diariofase1aberto.png-3f775dc67f9c52d064597f49b2b856f3.ctex::
 diarioFase2.png::CompressedTexture2D::4052468611814268895::1786471889::1786471896::1::::<><><>0<>0<>6bfea9a20c491ec43bdb07809c0d9bb4<>res://.godot/imported/diarioFase2.png-d830cb84c0fe82bcbcf3ab40f8a69898.ctex::
 diarioFase4.png::CompressedTexture2D::9000277671158625848::1786471889::1786471896::1::::<><><>0<>0<>3df251d71e6dec8a4293eaf3e451d2b8<>res://.godot/imported/diarioFase4.png-5ff38c535f72083cbb3ec7cfdc1e92a1.ctex::
+estaTudoCertoVamosContinuar.png::CompressedTexture2D::8450829600494632658::1786902541::1786902541::1::::<><><>0<>0<>53e322e575c2ad29d860ba92a797206a<>res://.godot/imported/estaTudoCertoVamosContinuar.png-573837097ad5e49a43c39f6c0896890c.ctex::
 Frame1.png::CompressedTexture2D::3040029912821000474::1786471889::1786471896::1::::<><><>0<>0<>db2d38cb6546612287c376dc2259a93f<>res://.godot/imported/Frame1.png-daa45791f356dcf82b2d7099296e2356.ctex::
 Frame2.png::CompressedTexture2D::4956387593753694374::1786471889::1786471896::1::::<><><>0<>0<>e5a8b454cef86a749e7d74dea26c1165<>res://.godot/imported/Frame2.png-d7a24f71590de6f23de60ac5f35a7be7.ctex::
 Frame2Fase2.png::CompressedTexture2D::2051338778106661989::1786471889::1786471896::1::::<><><>0<>0<>036fbcb51c1767d107b25dbdfa1c55d9<>res://.godot/imported/Frame2Fase2.png-626009fe7d4496eddfb63e6f709217e5.ctex::
@@ -168,6 +197,7 @@ missao ativa fase1 PoliticaPrivacidade.png::CompressedTexture2D::168410040974180
 missao ativa fase1.png::CompressedTexture2D::8405563944445703989::1786471889::1786471895::1::::<><><>0<>0<>dd77ae157657fdf63e2df5e24466b880<>res://.godot/imported/missao ativa fase1.png-f2f7cd1928bdb78597abef502875a5a0.ctex::
 monitor.png::CompressedTexture2D::2172704374236717043::1786471889::1786471896::1::::<><><>0<>0<>02140255b00a3b5e095b86f7da214b6d<>res://.godot/imported/monitor.png-964335b1caff860586c23f602817c224.ctex::
 personagemAchandoSuspeito.png::CompressedTexture2D::280845707848400454::1786471889::1786471895::1::::<><><>0<>0<>763d77edafafdc0adc7e69124c9101d9<>res://.godot/imported/personagemAchandoSuspeito.png-f0b223db3e0f54813f26c5a2a75758bb.ctex::
+seraQueEsTAcERTO.png::CompressedTexture2D::495439009420711875::1786902415::1786902416::1::::<><><>0<>0<>95ddea94590cc8be5c163b614f5458a7<>res://.godot/imported/seraQueEsTAcERTO.png-a1cf8cff12512e1811775e8fd84bec98.ctex::
 somCorrreto.mp3::AudioStreamMP3::8443001757471867747::1776781481::1786471889::1::::<><><>0<>0<>e5631e5cdbc93fcd9db16e43692117b7<>res://.godot/imported/somCorrreto.mp3-f106f06ec245f8ec18d34e3649a678a1.mp3str::
 somGameOver.mp3::AudioStreamMP3::434711670190295913::1780171451::1786471889::1::::<><><>0<>0<>32f48b3df94a8e5ba15d726d6a548513<>res://.godot/imported/somGameOver.mp3-5af247d2aff205d73ee9fdb2a6cc2045.mp3str::
 somNotificação.mp3::AudioStreamMP3::5617542001490433118::1776784266::1786471889::1::::<><><>0<>0<>3d65fa387d2e74b6687a4156b664f3e2<>res://.godot/imported/somNotificação.mp3-8ada8ed3589272c1983800062fcc9714.mp3str::

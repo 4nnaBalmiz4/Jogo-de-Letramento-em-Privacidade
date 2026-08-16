@@ -10,5 +10,5 @@ func _ready():
 
 
 func _on_button_pressed() -> void:
-	Global.fase_atual = 2
+	Global.fase_atual = 3
 	get_tree().change_scene_to_file("res://telaFases.tscn")
