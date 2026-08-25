@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://dtlgabyubibbe"]
+
+[ext_resource type="Script" uid="uid://cjyduwmjv1tgs" path="res://tela_fases_3.gd" id="1_acyre"]
+[ext_resource type="Texture2D" uid="uid://bwtsb1dp7qtfv" path="res://mapaFases3.png" id="2_x0qj3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_a0e7h"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_23fu3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_p0n7q"]
+
+[node name="tela_fases_3" type="Node2D" unique_id=1032369734]
+script = ExtResource("1_acyre")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=890511138]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("2_x0qj3")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="." unique_id=1776587011]
+offset_left = 663.0
+offset_top = 450.0
+offset_right = 771.0
+offset_bottom = 552.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_a0e7h")
+
+[node name="Button2" type="Button" parent="." unique_id=401444397]
+offset_left = 765.0
+offset_top = 323.0
+offset_right = 848.0
+offset_bottom = 406.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_23fu3")
+
+[node name="Button3" type="Button" parent="." unique_id=717956608]
+offset_left = 656.0
+offset_top = 153.0
+offset_right = 747.0
+offset_bottom = 245.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_p0n7q")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]

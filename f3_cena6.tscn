@@ -2,17 +2,19 @@
 
 [ext_resource type="Texture2D" uid="uid://d27s1bfh2waeb" path="res://framesJogo/fundoCard.png" id="1_8i143"]
 [ext_resource type="Texture2D" uid="uid://cou4x1qxb7qih" path="res://framesJogo/cardFase3.png" id="2_lkour"]
-[ext_resource type="Script" path="res://card_fase_2.gd" id="3_ovi21"]
+[ext_resource type="Script" uid="uid://br2jcjvfsxmqf" path="res://card_fase_2.gd" id="3_ovi21"]
 [ext_resource type="Texture2D" uid="uid://bop2hv232fiet" path="res://framesJogo/botaoContinuar.png" id="4_uar66"]
 [ext_resource type="AudioStream" uid="uid://6ryrrfubvx4v" path="res://framesJogo/descoberta.mp3" id="5_iljk4"]
-[ext_resource type="Script" path="res://f_3_cena_6.gd" id="6_f3c6"]
+[ext_resource type="Script" uid="uid://c0sw47erts6eq" path="res://f_3_cena_6.gd" id="6_f3c6"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yb4ue"]
 
 [node name="Node2D" type="Node2D" unique_id=851916954]
 script = ExtResource("6_f3c6")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1794790427]
-position = Vector2(574.55316, 347.75)
-scale = Vector2(1.1497544, 1.1497544)
+position = Vector2(576, 324.00003)
+scale = Vector2(1.1250001, 1.0605565)
 texture = ExtResource("1_8i143")
 
 [node name="CardFase3" type="Sprite2D" parent="." unique_id=1618107108]
@@ -22,13 +24,22 @@ texture = ExtResource("2_lkour")
 script = ExtResource("3_ovi21")
 duracao = 4.0
 
-[node name="botaoContinuar" type="TextureButton" parent="." unique_id=2035101795]
-offset_left = 882.0
-offset_top = 518.0
-offset_right = 2162.0
-offset_bottom = 1026.0
-scale = Vector2(0.2, 0.2)
-texture_normal = ExtResource("4_uar66")
-
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1886341080]
 stream = ExtResource("5_iljk4")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=537469603]
+offset_left = 917.0
+offset_top = 518.0
+offset_right = 1106.0
+offset_bottom = 620.0
+texture = ExtResource("4_uar66")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="." unique_id=807961235]
+offset_left = 925.0
+offset_top = 535.0
+offset_right = 1098.0
+offset_bottom = 604.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_yb4ue")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -1,8 +1,8 @@
+Button
+TextureRect
 Sprite2D
 Node2D
 Label
-Button
-TextureRect
 AudioStreamPlayer
 TextureButton
 VideoStreamPlayer

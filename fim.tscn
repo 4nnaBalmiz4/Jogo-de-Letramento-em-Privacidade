@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://bbsfesg8wgks"]
+
+[ext_resource type="Script" uid="uid://dqewdbungp61i" path="res://fim.gd" id="1_ay7l0"]
+[ext_resource type="Texture2D" uid="uid://bjm2abon7y18s" path="res://framesJogo/tela_fim.png" id="2_e0d77"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7h3ca"]
+
+[node name="fim" type="Node2D" unique_id=1747991016]
+script = ExtResource("1_ay7l0")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=425178276]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("2_e0d77")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="." unique_id=866546024]
+offset_left = 1027.0
+offset_top = 16.0
+offset_right = 1126.0
+offset_bottom = 55.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_7h3ca")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

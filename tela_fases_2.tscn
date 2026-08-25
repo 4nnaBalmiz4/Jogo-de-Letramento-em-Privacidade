@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://b5u1fgfd687ka"]
+
+[ext_resource type="Script" uid="uid://683vdg4kaevb" path="res://tela_fases_2.gd" id="1_bf35g"]
+[ext_resource type="Texture2D" uid="uid://ctksayalyers1" path="res://mapaFases2.png" id="2_5iu1q"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wsrhm"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_uu12v"]
+
+[node name="tela_fases_2" type="Node2D" unique_id=1176355942]
+script = ExtResource("1_bf35g")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1089171581]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("2_5iu1q")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="." unique_id=1897260486]
+offset_left = 671.0
+offset_top = 459.0
+offset_right = 768.0
+offset_bottom = 547.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_wsrhm")
+
+[node name="Button2" type="Button" parent="." unique_id=360630379]
+offset_left = 749.0
+offset_top = 311.0
+offset_right = 852.0
+offset_bottom = 418.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_uu12v")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]

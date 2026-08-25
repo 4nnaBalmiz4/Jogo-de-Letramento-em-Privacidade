@@ -5,6 +5,8 @@
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_t5oh3"]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_u55ay"]
+
 [node name="f2cena3" type="Node2D" unique_id=765573014]
 script = ExtResource("1_u55ay")
 
@@ -26,5 +28,6 @@ offset_left = 350.0
 offset_top = 535.0
 offset_right = 608.0
 offset_bottom = 581.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_u55ay")
 
 [connection signal="pressed" from="botaoConfirmar" to="." method="_on_button_pressed"]
