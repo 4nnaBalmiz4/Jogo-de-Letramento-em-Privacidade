@@ -7,18 +7,18 @@
 script = ExtResource("1_hiab1")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=243892926]
-position = Vector2(580, 326.75)
-scale = Vector2(1.1425781, 1.1708407)
+position = Vector2(576, 324.00003)
+scale = Vector2(0.6796461, 0.6982759)
 texture = ExtResource("1_gfftd")
 
 [node name="botãoJogar" type="Button" parent="." unique_id=2071702778]
-offset_left = 454.0
-offset_top = 491.0
-offset_right = 710.0
-offset_bottom = 563.0
+offset_left = 449.0
+offset_top = 488.0
+offset_right = 705.0
+offset_bottom = 560.0
 
 [node name="botãoSair" type="Button" parent="." unique_id=1592035320]
-offset_left = 452.0
-offset_top = 570.0
-offset_right = 707.0
-offset_bottom = 639.0
+offset_left = 448.0
+offset_top = 568.0
+offset_right = 703.0
+offset_bottom = 637.0
