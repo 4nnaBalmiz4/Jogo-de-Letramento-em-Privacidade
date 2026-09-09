@@ -3,6 +3,8 @@
 [ext_resource type="Texture2D" uid="uid://cdkchhuyfl8g6" path="res://framesJogo/frame7.png" id="1_33dc5"]
 [ext_resource type="Script" uid="uid://cto4cwgdk7a3q" path="res://botao_fechar.gd" id="2_cpjch"]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_33dc5"]
+
 [node name="Node2D" type="Node2D" unique_id=2040504481]
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=356032820]
@@ -15,6 +17,7 @@ offset_left = 507.0
 offset_top = 446.0
 offset_right = 679.0
 offset_bottom = 494.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_33dc5")
 script = ExtResource("2_cpjch")
 
 [connection signal="mouse_entered" from="botaoFechar" to="botaoFechar" method="_on_mouse_entered"]

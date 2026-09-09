@@ -3,8 +3,6 @@
 [node name="cena1_f2" type="Node2D" unique_id=1344115491]
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1420715599]
-offset_right = 40.0
-offset_bottom = 40.0
 
 [node name="Button" type="Button" parent="." unique_id=1091582286]
 offset_right = 8.0

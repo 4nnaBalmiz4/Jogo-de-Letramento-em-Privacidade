@@ -8,7 +8,12 @@ var servidor3_visitado = false
 var voltou_para_cena2 = false
 var diario_ja_visto = false
 var diario_ja_visto_f2 = false
-var fase_atual = 1
+var fase_desbloqueada = 1
+var fase_atual = 1:
+	set(valor):
+		fase_atual = valor
+		if valor > fase_desbloqueada:
+			fase_desbloqueada = valor
 var servidor1_correto = false
 var servidor2_correto = false
 var servidor3_correto = false
@@ -40,3 +45,20 @@ func perder_vida() -> bool:
 		game_over()
 		return true
 	return false
+
+func resetar_vidas() -> void:
+	vidas = 0
+	perdeu_vida = false
+
+func resetar_fase1() -> void:
+	voltou_para_cena2 = false
+	diario_ja_visto = false
+
+func resetar_fase2() -> void:
+	servidor1_visitado = false
+	servidor2_visitado = false
+	servidor3_visitado = false
+	servidor1_correto = false
+	servidor2_correto = false
+	servidor3_correto = false
+	diario_ja_visto_f2 = false

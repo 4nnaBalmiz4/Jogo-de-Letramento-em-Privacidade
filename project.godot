@@ -13,7 +13,7 @@ config_version=5
 config/name="JogoProjeto2"
 run/main_scene="res://telaInicial.tscn"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://imagens/icon.svg"
+config/icon="uid://cu3eup6yjvry1"
 
 [autoload]
 
@@ -21,6 +21,11 @@ Global="*res://Global.gd"
 MusicaGlobal="*res://musica_global.tscn"
 SomErro="*res://som_erro.tscn"
 SomAcerto="*res://som_acerto.tscn"
+
+[display]
+
+window/stretch/mode="canvas_items"
+window/icon="res://imagens/icon.svg"
 
 [input]
 

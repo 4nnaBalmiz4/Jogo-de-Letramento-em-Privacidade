@@ -14,13 +14,13 @@ func _ready():
 	botao_fase2.pressed.connect(_on_botao_fase2_pressed)
 	botao_fase3.pressed.connect(_on_botao_fase3_pressed)
 
-	if Global.fase_atual >= 3:
+	if Global.fase_desbloqueada >= 3:
 		# Vindo da fase 2 concluída: mostra o mapa direto com fase 3 piscando
 		video_player.visible = false
 		video_player.stop()
 		mapa.visible = true
 		_iniciar_brilho(botao_fase3)
-	elif Global.fase_atual >= 2:
+	elif Global.fase_desbloqueada >= 2:
 		# Vindo da fase 1 concluída: mostra o mapa direto com fase 2 piscando
 		video_player.visible = false
 		video_player.stop()
@@ -55,18 +55,24 @@ func _iniciar_brilho(botao: Button):
 func _on_botao_fase1_pressed():
 	if brilho_tween:
 		brilho_tween.kill()
+	Global.fase_atual = 1
+	Global.resetar_vidas()
 	get_tree().change_scene_to_file("res://cena1.tscn")
 
 func _on_botao_fase2_pressed():
 	if brilho_tween:
 		brilho_tween.kill()
-	Global.vidas = 0
-	Global.perdeu_vida = false
+	Global.fase_atual = 2
+	Global.resetar_vidas()
 	get_tree().change_scene_to_file("res://f2_cena1.tscn")
 
 func _on_botao_fase3_pressed():
 	if brilho_tween:
 		brilho_tween.kill()
-	Global.vidas = 0
-	Global.perdeu_vida = false
+	Global.fase_atual = 3
+	Global.resetar_vidas()
 	get_tree().change_scene_to_file("res://f3_cena1.tscn")
+
+
+func _on_button_pressed() -> void:
+	get_tree().change_scene_to_file("res://telaInicial.tscn")

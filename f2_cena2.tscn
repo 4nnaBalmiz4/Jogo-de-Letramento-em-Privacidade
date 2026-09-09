@@ -14,6 +14,12 @@
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6ofmi"]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_y7nr8"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_1i0pa"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_i7qci"]
+
 [node name="f2cena2" type="Node2D" unique_id=1831213471]
 script = ExtResource("1_adheo")
 
@@ -68,12 +74,14 @@ offset_left = 1124.0
 offset_top = 397.0
 offset_right = 1140.0
 offset_bottom = 412.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_y7nr8")
 
 [node name="abrirDiario" type="Button" parent="." unique_id=357732475]
 offset_left = 1027.0
 offset_top = 556.0
 offset_right = 1096.0
 offset_bottom = 620.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_1i0pa")
 
 [node name="diarioFase1" type="Sprite2D" parent="." unique_id=691148873]
 position = Vector2(608, 313)
@@ -85,6 +93,7 @@ offset_left = 777.0
 offset_top = 44.0
 offset_right = 845.0
 offset_bottom = 108.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_i7qci")
 
 [connection signal="pressed" from="botaoServidor1" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="botaoServidor2" to="." method="_on_button_2_pressed"]

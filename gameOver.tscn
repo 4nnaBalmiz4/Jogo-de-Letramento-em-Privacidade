@@ -4,6 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://cyunwvj2o7n18" path="res://framesJogo/gameOver.png" id="1_xlotp"]
 [ext_resource type="AudioStream" uid="uid://ggtvxf868ihd" path="res://framesJogo/somGameOver.mp3" id="3_knsyn"]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_knsyn"]
+
 [node name="Node2D" type="Node2D" unique_id=241906053]
 script = ExtResource("1_ky4b6")
 
@@ -17,6 +19,9 @@ offset_left = 507.0
 offset_top = 572.0
 offset_right = 649.0
 offset_bottom = 615.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_knsyn")
 
 [node name="somGameOver" type="AudioStreamPlayer" parent="." unique_id=1541889949]
 stream = ExtResource("3_knsyn")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

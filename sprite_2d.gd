@@ -1,5 +1,5 @@
 extends Sprite2D
-@export var duracao: float = 0.05       # duração do efeito em segundos
+@export var duracao: float = 4.0       # duração do efeito em segundos
 @export var voltas: float = 2.0        # quantas voltas completas vai dar
 func _ready():
 	rotation_degrees = 0.0

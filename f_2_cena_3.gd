@@ -1,18 +1,18 @@
 extends Node2D
 
-@onready var botao_bloquear = $botaoConfirmar
-@onready var botao_confirmar = $botaoCortarConexão
+@onready var botao_confirmar = $botaoConfirmar
+@onready var botao_cortar = $"botaoCortarConexão"
 
 func _ready() -> void:
-	botao_bloquear.pressed.connect(_on_botao_bloquear_pressed)
 	botao_confirmar.pressed.connect(_on_botao_confirmar_pressed)
+	botao_cortar.pressed.connect(_on_botao_cortar_conexao_pressed)
 
 func _process(delta: float) -> void:
 	pass
 
 
-func _on_botao_bloquear_pressed() -> void:
-	# CORRETO
+func _on_botao_confirmar_pressed() -> void:
+	# CORRETO: Confirmar e continuar (Servidor em conformidade)
 	Global.servidor1_correto = true
 	if SomAcerto:
 		SomAcerto.tocar_acerto()
@@ -20,8 +20,8 @@ func _on_botao_bloquear_pressed() -> void:
 	get_tree().change_scene_to_file("res://f2_cena2.tscn")
 
 
-func _on_botao_confirmar_pressed() -> void:
-	# ERRADO
+func _on_botao_cortar_conexao_pressed() -> void:
+	# ERRADO: Cortar conexão indevidamente
 	Global.servidor1_correto = false
 	if Global.perder_vida():
 		return

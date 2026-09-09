@@ -4,6 +4,8 @@ extends Node2D
 @onready var botao = $Button
 
 func _ready():
+	Global.fase_atual = 4
+	Global.resetar_vidas()
 	botao.visible = false
 
 	label.terminou_texto.connect(mostrar_botao)

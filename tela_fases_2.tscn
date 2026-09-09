@@ -7,6 +7,8 @@
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_uu12v"]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bf35g"]
+
 [node name="tela_fases_2" type="Node2D" unique_id=1176355942]
 script = ExtResource("1_bf35g")
 
@@ -30,5 +32,13 @@ offset_right = 852.0
 offset_bottom = 418.0
 theme_override_styles/normal = SubResource("StyleBoxEmpty_uu12v")
 
+[node name="Button3" type="Button" parent="." unique_id=1757820362]
+offset_left = 1029.0
+offset_top = 22.0
+offset_right = 1119.0
+offset_bottom = 51.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_bf35g")
+
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]

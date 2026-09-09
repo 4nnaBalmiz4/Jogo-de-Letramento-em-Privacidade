@@ -11,8 +11,6 @@ bg_color = Color(0.7764706, 0.07058824, 0.09803922, 1)
 script = ExtResource("1_yyi1b")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=817418069]
-offset_right = 1152.0
-offset_bottom = 648.0
 texture = ExtResource("2_ntr6b")
 expand_mode = 1
 

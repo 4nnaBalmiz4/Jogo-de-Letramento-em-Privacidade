@@ -12,8 +12,16 @@ func _process(delta: float) -> void:
 
 
 func _on_button_pressed() -> void:
+	Global.fase_atual = 1
+	Global.resetar_vidas()
 	get_tree().change_scene_to_file("res://cena1.tscn")
 
 
 func _on_button_2_pressed() -> void:
+	Global.fase_atual = 2
+	Global.resetar_vidas()
 	get_tree().change_scene_to_file("res://f2_cena1.tscn")
+
+
+func _on_button_3_pressed() -> void:
+	get_tree().change_scene_to_file("res://telaInicial.tscn")

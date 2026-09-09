@@ -17,17 +17,17 @@ texture = ExtResource("2_7k832")
 expand_mode = 1
 
 [node name="botaoBloquear" type="Button" parent="." unique_id=187221313]
-offset_left = 359.0
-offset_top = 537.0
-offset_right = 608.0
-offset_bottom = 575.0
+offset_left = 350.0
+offset_top = 544.0
+offset_right = 607.0
+offset_bottom = 582.0
 theme_override_styles/normal = SubResource("StyleBoxEmpty_86344")
 
 [node name="confirmareContinuar" type="Button" parent="." unique_id=1455615063]
-offset_left = 616.0
-offset_top = 537.0
-offset_right = 878.0
-offset_bottom = 576.0
+offset_left = 618.0
+offset_top = 543.0
+offset_right = 892.0
+offset_bottom = 582.0
 theme_override_styles/normal = SubResource("StyleBoxEmpty_pb4xl")
 
 [connection signal="pressed" from="botaoBloquear" to="." method="_on_button_pressed"]

@@ -6,6 +6,10 @@
 [ext_resource type="Texture2D" uid="uid://cmijsr5wklke5" path="res://framesJogo/barraVidaCompleta 1.png" id="3_y4rkw"]
 [ext_resource type="Script" uid="uid://8a6gwh41inyc" path="res://botao_sinalizar_violocao.gd" id="5_cupu8"]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cupu8"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_y8ea0"]
+
 [node name="Node2D" type="Node2D" unique_id=506028724]
 script = ExtResource("1_aq161")
 
@@ -19,6 +23,7 @@ offset_left = 507.0
 offset_top = 372.0
 offset_right = 661.0
 offset_bottom = 399.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_cupu8")
 script = ExtResource("2_y4rkw")
 
 [node name="barraVida" type="Sprite2D" parent="." unique_id=1980620440]
@@ -26,8 +31,14 @@ position = Vector2(1004, 108)
 texture = ExtResource("3_y4rkw")
 
 [node name="botaoSinalizarViolocao" type="Button" parent="." unique_id=1132681260]
-offset_left = 508.0
-offset_top = 407.0
-offset_right = 660.0
-offset_bottom = 434.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 509.0
+offset_top = 409.0
+offset_right = 659.0
+offset_bottom = 432.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_y8ea0")
 script = ExtResource("5_cupu8")

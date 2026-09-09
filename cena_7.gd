@@ -6,9 +6,7 @@ extends Node2D
 
 func _ready():
 	botao.visible = false
-	
-	# 1. Inicia a animação visual
-	anim.play("animacaoFinal")
+
 	
 	# 2. Espera o tempo do primeiro frame para tocar o som no segundo
 	# Ajuste o valor '0.1' para o tempo de duração de cada frame da sua animação

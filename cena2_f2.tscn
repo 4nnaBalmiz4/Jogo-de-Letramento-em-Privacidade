@@ -1,7 +1,11 @@
 [gd_scene format=3 uid="uid://byw6s4uhrsxp5"]
 
+[ext_resource type="Texture2D" uid="uid://57qeg5jjtur0" path="res://framesJogo/monitor.png" id="1_seviu"]
+
 [node name="cena2_f2" type="Node2D" unique_id=1831213471]
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=2110279664]
-offset_right = 40.0
-offset_bottom = 40.0
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_seviu")
+expand_mode = 1

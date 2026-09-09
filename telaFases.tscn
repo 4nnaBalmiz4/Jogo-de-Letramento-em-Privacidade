@@ -4,7 +4,13 @@
 [ext_resource type="Script" uid="uid://b5kwk6j11hk7i" path="res://tela_fases.gd" id="2_script"]
 [ext_resource type="Texture2D" uid="uid://bjxfh8l3qye7" path="res://framesJogo/mapaFases.png" id="3_mapa"]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_y41ak"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6m5w5"]
+
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_da8t2"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_50sj3"]
 
 [node name="Node2D" type="Node2D" unique_id=1764006890]
 script = ExtResource("2_script")
@@ -24,16 +30,18 @@ scale = Vector2(1.1386718, 1.153846)
 texture = ExtResource("3_mapa")
 
 [node name="BotaoFase2" type="Button" parent="MapaFases" unique_id=617112282]
-offset_left = 181.79083
-offset_top = 20.800009
-offset_right = 212.52838
-offset_bottom = 52.000023
+offset_left = 595.43066
+offset_top = 62.400017
+offset_right = 626.1682
+offset_bottom = 93.60003
+theme_override_styles/normal = SubResource("StyleBoxEmpty_y41ak")
 
 [node name="BotaoFase3" type="Button" parent="MapaFases" unique_id=750234981]
-offset_left = 86.94348
-offset_top = -124.80002
-offset_right = 120.315674
-offset_bottom = -89.26668
+offset_left = 588.40497
+offset_top = 12.133331
+offset_right = 621.77716
+offset_bottom = 47.66667
+theme_override_styles/normal = SubResource("StyleBoxEmpty_6m5w5")
 
 [node name="BotaoFase1" type="Button" parent="MapaFases" unique_id=2029813565]
 offset_left = 87.82166
@@ -41,3 +49,12 @@ offset_top = 119.60002
 offset_right = 166.86108
 offset_bottom = 191.53337
 theme_override_styles/normal = SubResource("StyleBoxEmpty_da8t2")
+
+[node name="Button" type="Button" parent="MapaFases" unique_id=1137098397]
+offset_left = 398.71024
+offset_top = -266.0667
+offset_right = 481.2626
+offset_bottom = -243.53337
+theme_override_styles/normal = SubResource("StyleBoxEmpty_50sj3")
+
+[connection signal="pressed" from="MapaFases/Button" to="." method="_on_button_pressed"]

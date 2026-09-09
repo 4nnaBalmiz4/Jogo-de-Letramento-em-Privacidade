@@ -3,6 +3,8 @@
 [ext_resource type="Texture2D" uid="uid://dd6xqe6swb5gp" path="res://framesJogo/frame6.1.png" id="1_01mne"]
 [ext_resource type="Script" uid="uid://dsaq5udh1jx8e" path="res://botao_entendi_vou_ler.gd" id="2_rbhtq"]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rbhtq"]
+
 [node name="Node2D" type="Node2D" unique_id=968193834]
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1995285223]
@@ -12,7 +14,8 @@ texture = ExtResource("1_01mne")
 
 [node name="botaoEntendiVouLer" type="Button" parent="." unique_id=377688917]
 offset_left = 494.0
-offset_top = 398.0
+offset_top = 397.0
 offset_right = 688.0
-offset_bottom = 445.0
+offset_bottom = 444.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_rbhtq")
 script = ExtResource("2_rbhtq")

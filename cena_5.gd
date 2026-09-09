@@ -11,6 +11,7 @@ var imagens_vida = [
 @onready var barra = $barraVida
 
 func _ready():
+	Global.fase_atual = 1
 	atualizar_barra_vida()
 
 	if Global.perdeu_vida:

@@ -3,6 +3,8 @@
 [ext_resource type="Texture2D" uid="uid://doc0beaov0i7" path="res://framesJogo/frame8_erro.png" id="1_npcyq"]
 [ext_resource type="Script" uid="uid://6ifixflibvbd" path="res://button.gd" id="2_npcyq"]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_npcyq"]
+
 [node name="Node2D" type="Node2D" unique_id=509418873]
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=509853654]
@@ -11,8 +13,14 @@ scale = Vector2(1.1298828, 1.0834711)
 texture = ExtResource("1_npcyq")
 
 [node name="Button" type="Button" parent="." unique_id=1819244216]
-offset_left = 473.0
-offset_top = 401.0
-offset_right = 694.0
-offset_bottom = 450.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 476.0
+offset_top = 400.0
+offset_right = 693.0
+offset_bottom = 451.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_npcyq")
 script = ExtResource("2_npcyq")

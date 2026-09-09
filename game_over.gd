@@ -3,8 +3,9 @@ extends Node2D
 @onready var botao = $Button
 
 func _ready() -> void:
-	botao.pressed.connect(_on_botao_voltar_pressed)
-	
+	if botao and not botao.pressed.is_connected(_on_button_pressed):
+		botao.pressed.connect(_on_button_pressed)
+
 	# Toca o som de game over
 	var som = AudioStreamPlayer.new()
 	som.stream = preload("res://framesJogo/somGameOver.mp3")
@@ -24,31 +25,5 @@ func _ready() -> void:
 	tween.tween_callback(canvas.queue_free)
 
 
-func _on_botao_voltar_pressed() -> void:
-	# Reseta as vidas
-	Global.vidas = 0
-	Global.perdeu_vida = false
-
-	# Reseta o progresso da fase atual
-	match Global.fase_atual:
-		1:
-			_resetar_fase1()
-			get_tree().change_scene_to_file("res://cena2.tscn")
-		2:
-			_resetar_fase2()
-			get_tree().change_scene_to_file("res://f2_cena2.tscn")
-
-
-func _resetar_fase1():
-	Global.voltou_para_cena2 = false
-	Global.diario_ja_visto = false
-
-
-func _resetar_fase2():
-	Global.servidor1_visitado = false
-	Global.servidor2_visitado = false
-	Global.servidor3_visitado = false
-	Global.servidor1_correto = false
-	Global.servidor2_correto = false
-	Global.servidor3_correto = false
-	Global.diario_ja_visto_f2 = false
+func _on_button_pressed() -> void:
+	get_tree().change_scene_to_file("res://telaInicial.tscn")

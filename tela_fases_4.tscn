@@ -12,6 +12,8 @@ bg_color = Color(0.6, 0.6, 0.6, 0)
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wkvr1"]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3gxxb"]
+
 [node name="telaFases4" type="Node2D" unique_id=1307694852]
 script = ExtResource("1_3gxxb")
 
@@ -49,7 +51,15 @@ offset_right = 1107.0
 offset_bottom = 263.0
 theme_override_styles/normal = SubResource("StyleBoxEmpty_wkvr1")
 
+[node name="Button5" type="Button" parent="." unique_id=1509959606]
+offset_left = 1026.0
+offset_top = 22.0
+offset_right = 1120.0
+offset_bottom = 52.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_3gxxb")
+
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
 [connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]
 [connection signal="pressed" from="Button4" to="." method="_on_button_4_pressed"]
+[connection signal="pressed" from="Button5" to="." method="_on_button_5_pressed"]

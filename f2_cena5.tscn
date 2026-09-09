@@ -17,16 +17,16 @@ texture = ExtResource("1_2l5fx")
 expand_mode = 1
 
 [node name="Button" type="Button" parent="." unique_id=62628487]
-offset_left = 361.0
-offset_top = 572.0
+offset_left = 363.0
+offset_top = 573.0
 offset_right = 661.0
-offset_bottom = 613.0
+offset_bottom = 614.0
 theme_override_styles/normal = SubResource("StyleBoxEmpty_xd0pw")
 
 [node name="Button2" type="Button" parent="." unique_id=1501692412]
 offset_left = 663.0
 offset_top = 573.0
-offset_right = 923.0
+offset_right = 922.0
 offset_bottom = 614.0
 theme_override_styles/normal = SubResource("StyleBoxEmpty_n3abk")
 

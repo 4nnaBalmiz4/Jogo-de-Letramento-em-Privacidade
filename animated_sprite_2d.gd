@@ -2,6 +2,8 @@ extends AnimatedSprite2D
 
 
 func _ready():
+	Global.fase_atual = 1
+	Global.resetar_vidas()
 	play("default")
 	
 

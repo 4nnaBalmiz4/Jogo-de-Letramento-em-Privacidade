@@ -21,6 +21,7 @@ var imagens_vida = [
 @onready var fechar_diario = $fecharDiario
 
 func _ready():
+	Global.fase_atual = 1
 	atualizar_barra_vida()
 
 	if Global.perdeu_vida:

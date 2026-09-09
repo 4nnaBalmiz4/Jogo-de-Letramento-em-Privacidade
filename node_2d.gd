@@ -1,7 +1,6 @@
 extends Node2D
 
 @onready var botao = $TextureButton
-@onready var player = $AudioStreamPlayer
 
 func _ready():
 	botao.visible = false

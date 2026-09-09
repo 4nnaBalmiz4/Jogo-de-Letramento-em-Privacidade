@@ -4,6 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://gtm2yoiqj62t" path="res://framesJogo/Frame4Fase2.png" id="2_o2mto"]
 [ext_resource type="AudioStream" uid="uid://b1avjk4mem02e" path="res://framesJogo/comemoração.mp3" id="3_nly1o"]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nly1o"]
+
 [node name="f2cena6" type="Node2D" unique_id=377705893]
 script = ExtResource("1_o2mto")
 
@@ -11,12 +13,14 @@ script = ExtResource("1_o2mto")
 offset_right = 1152.0
 offset_bottom = 648.0
 texture = ExtResource("2_o2mto")
+expand_mode = 1
 
 [node name="Button" type="Button" parent="." unique_id=1540797194]
-offset_left = 1041.0
-offset_top = 577.0
-offset_right = 1136.0
-offset_bottom = 631.0
+offset_left = 1061.0
+offset_top = 585.0
+offset_right = 1120.0
+offset_bottom = 636.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_nly1o")
 text = ">>"
 
 [node name="comemoração" type="AudioStreamPlayer" parent="." unique_id=1653870233]

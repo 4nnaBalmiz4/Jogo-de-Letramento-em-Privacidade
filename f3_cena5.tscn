@@ -50,6 +50,9 @@ corner_radius_bottom_left = 10
 shadow_color = Color(0, 0, 0, 0.4)
 shadow_size = 6
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_awj3h"]
+bg_color = Color(0.34669715, 0.001042512, 0.964318, 1)
+
 [node name="Node2D" type="Node2D" unique_id=2019112631]
 script = ExtResource("1_script")
 
@@ -157,18 +160,18 @@ texture = ExtResource("7_awj3h")
 
 [node name="BotaoAvancar" type="Button" parent="." unique_id=1468884999]
 visible = false
-layout_mode = 0
+z_index = 15
 offset_left = 1050.0
 offset_top = 560.0
 offset_right = 1130.0
 offset_bottom = 610.0
-z_index = 15
 mouse_default_cursor_shape = 2
 theme_override_colors/font_color = Color(1, 1, 1, 0.8)
 theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 28
-flat = true
+theme_override_styles/normal = SubResource("StyleBoxFlat_awj3h")
 text = ">>"
+flat = true
 
 [connection signal="pressed" from="ContainerBotoes/BotaoConforme" to="." method="_on_botao_conforme_pressed"]
 [connection signal="pressed" from="ContainerBotoes/BotaoNaoConforme" to="." method="_on_botao_nao_conforme_pressed"]

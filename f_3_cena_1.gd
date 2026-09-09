@@ -7,6 +7,8 @@ extends Node2D
 var trocando_cena: bool = false
 
 func _ready() -> void:
+	Global.fase_atual = 3
+	Global.resetar_vidas()
 	if color_rect:
 		color_rect.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		color_rect.color = Color(0, 0, 0, 1.0)

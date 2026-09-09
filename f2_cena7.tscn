@@ -3,19 +3,21 @@
 [ext_resource type="Script" uid="uid://ctquv6e7nhbtn" path="res://f_2_cena_7.gd" id="1_4pdk5"]
 [ext_resource type="Texture2D" uid="uid://qbu4bsin8apl" path="res://framesJogo/frame20.png" id="1_vtbot"]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4pdk5"]
+
 [node name="f2cena7" type="Node2D" unique_id=1240289697]
 script = ExtResource("1_4pdk5")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1266142828]
-offset_right = 1152.0
+offset_right = 1198.0
 offset_bottom = 648.0
 texture = ExtResource("1_vtbot")
+expand_mode = 1
 
 [node name="Button" type="Button" parent="." unique_id=1338080152]
-offset_left = 1041.0
-offset_top = 577.0
-offset_right = 1136.0
-offset_bottom = 631.0
-text = ">>"
+offset_top = 594.0
+offset_right = 1153.0
+offset_bottom = 647.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_4pdk5")
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://rpis05kv7cyn"]
+
+[ext_resource type="Script" uid="uid://dpwmimmvjkn35" path="res://game_over.gd" id="1_ky4b6"]
+[ext_resource type="Texture2D" uid="uid://cyunwvj2o7n18" path="res://framesJogo/gameOver.png" id="1_xlotp"]
+[ext_resource type="AudioStream" uid="uid://ggtvxf868ihd" path="res://framesJogo/somGameOver.mp3" id="3_knsyn"]
+
+[node name="Node2D" type="Node2D" unique_id=241906053]
+script = ExtResource("1_ky4b6")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1118464828]
+position = Vector2(575.50006, 324.50003)
+scale = Vector2(0.77905405, 0.8986111)
+texture = ExtResource("1_xlotp")
+
+[node name="Button" type="Button" parent="." unique_id=1801272738]
+offset_left = 507.0
+offset_top = 572.0
+offset_right = 649.0
+offset_bottom = 615.0
+
+[node name="somGameOver" type="AudioStreamPlayer" parent="." unique_id=1541889949]
+stream = ExtResource("3_knsyn")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

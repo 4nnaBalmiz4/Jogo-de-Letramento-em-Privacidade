@@ -17,6 +17,7 @@ var imagens_vida = [
 @onready var fechar_diario = $fecharDiario
 
 func _ready() -> void:
+	Global.fase_atual = 2
 	atualizar_barra_vida()
 
 	# ESTADO INICIAL DO DIÁRIO
